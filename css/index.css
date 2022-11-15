@@ -126,7 +126,7 @@
         display:block; 
         width:300px;
         height: 200px;
-        background-image: url(../images/baby1.webp);
+        background-image: url(./images/baby1.webp);
         background-size: 100%;
         background-repeat: no-repeat;
         }
@@ -139,7 +139,7 @@
         position: relative;;
         margin-right:60px;
         margin-left: 60px;
-        background-image: url(../images/baby2.webp);
+        background-image: url(images/baby2.webp);
         background-size: 100%;
         background-repeat: no-repeat;
         }
@@ -149,7 +149,7 @@
         display:block; 
         width:300px;
         height: 200px;
-        background-image: url(../images/baby3.webp);
+        background-image: url(./images/baby3.webp);
         background-size: 100%;
         background-repeat: no-repeat;
         }
