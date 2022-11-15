@@ -1,0 +1,95 @@
+/*_________________________以下导航栏重构——————————————————————————————————*/
+.Top_Nav{
+    margin: 0 auto;
+    background-image: url(../images/baby11.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 100%; */
+    background-position: 0 -100px;
+    width: 100%;
+    height: 300px;
+    font-family: PingFangSC-Regular,Avenir,Helvetica,Arial,sans-serif;
+    color: #ffffff;
+  }
+/*_________________________以上导航栏重构——————————————————————————————————*/
+
+
+body{font-size: 12px;}
+/*对整个标签,和表格 设置宽度为990像素*/
+#discuss,#discuss-datas{
+    width: 990px;
+    margin: 0 auto;
+}
+#discuss div.mt{
+    /*高度,边框,背景*/
+    margin-top: 20px;
+    height: 30px;
+    border: 1px solid #DDDDDD;
+    border-top: 2px solid #999999;
+    background: #f7f7f7;
+}
+#discuss-content{
+    border-bottom: 1px solid #DDDDDD;
+}
+#discuss-datas tr.header td{
+    /*加粗 上下内边距 下边框*/
+    font-weight: bold;
+    padding: 5px 0;
+    border-bottom: 1px solid #DDDDDD;
+    color: #666666;
+}
+#discuss-datas td{
+    /*内容水平居中对齐*/
+    text-align: center;
+}
+#discuss-datas td.col1{
+    /*宽度,文本左对齐*/
+    width: 620px;
+    text-align: left;
+}
+#discuss-datas tbody td{
+    /*文本颜色*/
+    color: #9c9c9c;
+}
+#discuss a{
+    /*改链接颜色 去掉下划线*/
+    text-decoration: none;
+    color: #999999;
+}
+#discuss a:hover{
+    text-decoration: underline;
+}
+#discuss-datas tbody td{
+    /*上下内边距 下边框*/
+    padding: 5px 0px;
+    border-bottom: 1px dotted #DDDDDD;
+}
+/*给论坛内容加标签 加图标*/
+#discuss i{
+    /*左内边距 下内边距高度 背景图*/
+    padding-left: 21px;
+    padding-bottom: 5px;
+    background:url(img/c63802c9ee7e4ddec0e53e152e665ea.png) no-repeat;
+    background-size: 100%;
+}
+#discuss div.mt a{
+    float:left;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#discuss div.mt a:hover{
+    text-decoration: none;
+    color: #E4393C;
+}
+#discuss div.mt a.current{
+    border: 1px solid #DDDDDD;
+    border-top: 2px solid #E4393C;
+    border-bottom: 0;
+    background: #ffffff;
+    margin-top: -6px;
+    height: 35px;
+    line-height: 35px;
+    color: #E4393C;
+}

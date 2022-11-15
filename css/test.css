@@ -1,0 +1,79 @@
+.Type_Area {
+    margin: 0 auto;
+    width: 1020px;
+  }
+  .Top_Nav{
+    margin: 0 auto;
+    background-image: url(../images/baby7.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 100%; */
+    width: 100%;
+    height: 480px;
+    font-family: PingFangSC-Regular,Avenir,Helvetica,Arial,sans-serif;
+  }
+.p1{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 0.1px;
+    border:  solid #da3143;
+}
+
+h1{
+    color:#da3143;
+    padding-top:30px;
+    text-align:center;
+}
+form{
+    padding-left: 120px;
+    width: 90%;
+    padding-top: 30px;
+    line-height:180%;
+    font-size: 15px;
+}
+input{
+    border-color: black;
+    border-top-width:0px;
+    border-right-width:0px;
+    border-bottom-width:2px;
+    border-left-width:0px;
+}
+#btn{
+    background-color: #da3143;
+    color:white;
+    padding:5px 10px;
+    margin-left:600px;
+    margin-top:16px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.Type_Area form ol li{
+    margin-top: 10px;
+    font-weight: 600;
+    width: 90%;
+}
+.Type_Area form ol label{
+    line-height: 30px;
+}
+
+textarea {
+    width: 90%;
+    height: 40px;
+    padding: 12px 20px;
+}
+text{
+    border: #da3143;
+    background-color: aqua;
+}
+
+input{
+    border:  solid#f6f6f6 ;
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
